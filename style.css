@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+element {
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  white-space: nowrap; 
+}
+
+.form-control::placeholder {
+  color: #eef2f6;
+  opacity: 1;
+  font-size: larger;
+}
+
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+  color: #e5f20f;
+  text-decoration: none;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: white;
+  background-clip: padding-box;
+  border-radius: 0rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  background-color: white;
+}
+
+.btn-outline-warning {
+  color:#efeb09;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-outline-warning:hover {
+  background-color: #efeb09;
+  border-color: #efeb09;
+  color: white;
+}
+
+a:not([href]):not([tabindex]) {
+  color:#efeb09;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.btn-outline-warning.focus, .btn-outline-warning:focus {
+  box-shadow: 0 0 0 .2rem #efeb09;
+}
+
+.bg-light {
+  background-color: #878b8f !important;
+}
+
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+.carousel-inner img{
+  width:100%;
+  height:100%;
+}
+
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: comic inherit;
+    color: hsl(246, 16.4%, 76.1%);
+    font-size: larger;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.cardbutton{
+  margin-bottom:13px;
+}
+
+.cardbutton2{
+  margin-bottom:15px;
+}
+
+.card1text{
+  padding-bottom:70px;
+}
+
+.h1, h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.display-4 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.h2, h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: #ffc107;
+  border-color: #ffc107;
+  font-size: x-large;
+}
+
+.btn-outline-warning{
+  color:rgb(247, 242, 0);
+  font-size:x-large;
+}
+
+.fa-newspaper{
+  margin-bottom:50px;
+}
+
+.fa-cuttlefish{
+  margin-bottom:50px;
+}
+
+.fa-edit{
+  margin-bottom:55px;
+}
+
+.fa-twitter{
+  margin-right:50px;
+}
+
+.fa-instagram{
+  margin-right:50px;
+}
+
+.fa-google-plus-g{
+  margin-right:50px;
+}
+
+.fa-facebook{
+  margin-right:50px;
+}
+
+.footertext{
+  color:#ffc107;
+  font-weight:bold;
+  font-size:50px;
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .social a{
+    font-size:4em;
+    padding:2rem;
+  }
+}
+@media (max-width: 768px) {
+
+  .display-4{
+    font-size:200%;
+  }
+
+  .social a{
+    font-size:2.5em;
+    padding:1.2rem;
+  }
+
+}
+@media (max-width: 576px) {
+  
+  .carousel-caption{
+    margin-top: 50px;
+  }
+
+  .carousel-indicators{
+    display:none;
+  }
+
+  .display-4{
+    font-size:160%;
+  }
+
+  .social a{
+    font-size:2em;
+    padding:.7rem;
+  }
+
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/conan5.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
